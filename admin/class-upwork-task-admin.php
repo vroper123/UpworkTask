@@ -181,7 +181,7 @@ class Upwork_Task_Admin {
 	public function upwork_task_general_cb() {
 		echo '<p>' . __( 'Welcome.', 'upwork-task' ) . '</p>';
 		echo '<p>' . __( 'Plugin Usage: please use [geo] shortcode on any post or page', 'upwork-task' ) . '</p>';
-		echo '<p>' . __( 'Please change the settings accordingly.', 'upwork-task' ) . '</p>';
+		echo '<p>' . __( 'Please change Map api settings defaults accordingly.', 'upwork-task' ) . '</p>';
 	}
 
 	 
