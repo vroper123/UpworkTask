@@ -1,0 +1,56 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.geo-container-image{
+    text-align: center;
+}
+ .geo-image{
+     max-width: 30%;
+     
+ }
+ .geo-title{
+     display: block;
+     text-align: center;
+ }
+ .geo-container{
+     margin: 0 auto;
+ }
+
+ form.geo input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.geo button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.geo button:hover {
+    background: #0b7dda;
+  }
+  .geo{
+      margin-top: 20px;
+  }
+
+  .geo-text{
+      padding: 30px 10px;
+      text-align: center;
+  }
+  form.geo::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
